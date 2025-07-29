@@ -357,4 +357,4 @@ with col3:
 
 
 VIS = get_Vis()
-st.altair_chart(VIS)
+st.altair_chart(VIS, use_container_width=True)
